@@ -3,7 +3,7 @@ import random
 class Terrain:
 
     def __init__(self, width, smoothness = 1, seed = None):
-        
+
         self.generate_1d_map(width, smoothness, seed)
 
     def generate_1d_map(self, width, smoothness=1, seed=None):
